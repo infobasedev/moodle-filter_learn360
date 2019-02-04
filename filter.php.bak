@@ -31,11 +31,6 @@ class filter_learn360 extends moodle_text_filter {
   public function filter($text, array $options = array()) {
     global $CFG, $PAGE;
 
-	if (!is_string($text) or empty($text)) {
-		// non string data can not be filtered anyway
-		return $text;
-	}
-
 	$dom = new DOMDocument();
 	$dom->loadHTML($text);
 	$el = $dom->getElementsByTagName('a');
