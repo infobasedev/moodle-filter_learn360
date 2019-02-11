@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin                     = new StdClass();
 $plugin->component          = 'filter_learn360';
-$plugin->version = 2018110800;
-$plugin->requires = 2014051200; // Moodle 2.7.0 is required.
-$plugin->release = 'v3.0-r2'; // This is our second revision for Moodle 3.0.x branch.
+$plugin->version			= 2018110800;
+$plugin->requires           = 2017051500; // Moodle 3.3 is required.
+$plugin->release			= 'v3.0-r2'; // This is our second revision for Moodle 3.0.x branch.
 $plugin->maturity           = MATURITY_STABLE;
