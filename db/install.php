@@ -20,6 +20,9 @@
  * @package    filter
  * @subpackage learn360
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @copyright 2019 Infobase
+ * @copyright based on work by Pramod Ubbala
+ * @author    Pramod Ubbala (AGS -> Infobase
  */
 
 function xmldb_filter_learn360_install() {

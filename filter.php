@@ -17,9 +17,11 @@
 
 /**
  * Learn360 Video filter plugin.
- * @Author    Pramod Ubbala (AGS -> Infobase)
+ * @author    Pramod Ubbala (AGS -> Infobase)
  * @package    filter_learn360
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @copyright 2019 Infobase
+ * @copyright based on work by Pramod Ubbala
  */
 
 defined('MOODLE_INTERNAL') || die();
