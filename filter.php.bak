@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 
 class filter_learn360 extends moodle_text_filter {
   
- // private $embedmarkers;
+  private $embedmarkers;
 
   public function filter($text, array $options = array()) {
     global $CFG, $PAGE;
@@ -89,9 +89,9 @@ class filter_learn360 extends moodle_text_filter {
 				$a = str_replace("moodle/". $moodleText, "moodle/". urldecode($moodleText), $a);
 			}
 
-			//$this->embedmarkers = 'lti\.films\.com|localhost|\.mp4';
+			$this->embedmarkers = 'lti\.films\.com|localhost|\.mp4';
 
-			//$this->trusted = !empty($options['noclean']) or !empty($CFG->allowobjectembed);
+			$this->trusted = !empty($options['noclean']) or !empty($CFG->allowobjectembed);
 
 			$width =  435;
 			$height = 382;
